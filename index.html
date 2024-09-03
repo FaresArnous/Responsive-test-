@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Oleo+Script:wght@700&family=Quicksand:wght@300;500;700&display=swap" />
-    <link rel="stylesheet" href="style.css" />
     <title>Foodweb</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header id="main header">
@@ -21,10 +22,26 @@
     </header>
     <main>
       <h1>Browse our Delicious meals</h1>
-      <section>
+      <section id="Products">
         <ul>
-          <li>meal1</li>
-          <li>meal2</li>
+          <li id="food-items">
+            <article>
+              <img src="images/cheeseburgers.jpg" alt="cheeseburgers" />
+              <div id="food-items-content">
+                <h2>Cheeseburger</h2>
+                <a href="" class="btn">Add to cart</a>
+              </div>
+            </article>
+          </li>
+          <li id="food-items">
+            <article>
+              <img src="images/risotto.jpg" alt="risotto" />
+              <div id="food-items-content">
+                <h2>Risotto with Tiger Prawns</h2>
+                <a href="" class="btn">Add to cart</a>
+              </div>
+            </article>
+          </li>
         </ul>
       </section>
     </main>
