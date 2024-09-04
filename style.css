@@ -77,10 +77,12 @@ main h1 {
 .food-items-content {
   padding: 16px;
   text-align: center;
-  font-size: 24px;
+  font-size: 200%;
 }
 h2 {
-  font-size: 200%;
+  /* font-size: 200%; */
+  /* font-size: 2em; */
+  font-size: 2rem;
 }
 .btn {
   color: white;
